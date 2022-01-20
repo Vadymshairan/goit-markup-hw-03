@@ -12,6 +12,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
+
 p,
 h1,
 h2,
@@ -32,11 +33,11 @@ button {
   cursor: pointer;
 }
 
-img {
+/* img {
   display: block;
   min-width: 100%;
   width: 100%;
-}
+} */
 
 .body {
   background-color: var(--primary-white-color);
@@ -47,6 +48,23 @@ img {
 
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .logo {
@@ -61,6 +79,9 @@ img {
 .body .logo-header {
   color: #000000;
 }
+.section {
+  padding: 94px 0 94px 0;
+}
 /* <!-- navigation section--> */
 .site-nav .link {
   color: var(--title-text-color);
@@ -68,7 +89,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -85,7 +105,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -93,6 +112,7 @@ img {
 }
 /* Hero */
 .hero {
+  padding: 200px 0 200px 0;
   background-color: #2f303a;
 }
 .hero-title {
