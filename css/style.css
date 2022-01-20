@@ -54,6 +54,13 @@ button {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -67,22 +74,30 @@ button {
   margin: -1px;
 }
 
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.body .logo-header {
-  color: #000000;
-}
 .section {
   padding: 94px 0 94px 0;
 }
-/* <!-- navigation section--> */
+
+/* -----------------------Шапка Сайта--------------------------- */
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+  .logo {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+
+  .body .logo-header {
+    color: #000000;
+  }
+}
+/* <!----------------------navigation section---------------------> */
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -98,7 +113,7 @@ button {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/* <!-- contacts section--> */
+/* <!-----------------contacts section---------------------------> */
 .contacts .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -110,12 +125,15 @@ button {
 .contacts .link:focus {
   color: var(--accent-color);
 }
-/* Hero */
+/* -----------------------Hero----------------------- */
 .hero {
   padding: 200px 0 200px 0;
   background-color: #2f303a;
 }
 .hero-title {
+  width: 696px;
+  margin: 0 auto;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -123,9 +141,12 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  
+  margin-bottom: 30px;
 }
 .button {
   display: block;
+  width: 200px;
   margin: 0 auto;
 }
 .hero .button {
@@ -144,8 +165,11 @@ button {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  
+  margin-bottom: 50px;
 }
-/* features */
+/* -----------------------features----------------------- */
+
 .features .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -157,7 +181,10 @@ button {
   font-size: 14px;
   line-height: 1.71;
 }
-/* Team */
+
+ /* <!--------------Чем мы занимаемся----------------> */
+
+/* -----------------------Team----------------------- */
 .team .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -193,7 +220,7 @@ button {
   color: var(--primary-white-color);
 }
 
-/* Стили для Портфолио */
+/* -----------------------Стили для Портфолио----------------------- */
 .portfolio .title {
   color: var(--title-text-color);
   font-weight: 700;
