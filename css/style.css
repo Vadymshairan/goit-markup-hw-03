@@ -59,7 +59,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   /* background-color: violet; */
 }
 .visually-hidden {
@@ -80,7 +80,9 @@ img {
 }
 
 /* -----------------------Шапка Сайта--------------------------- */
-
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
