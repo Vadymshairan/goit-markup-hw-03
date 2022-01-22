@@ -263,11 +263,11 @@ img {
   text-align: center;
 }
 .name {
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .position {
-  margin-top: 10px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
@@ -319,10 +319,8 @@ img {
 
 .filters {
   display: flex;
-}
-.filters-item:not(:last-child) {
+  justify-content: center;
   margin-right: 8px;
-  margin: 0 auto;
 }
 
 .filters-button {
