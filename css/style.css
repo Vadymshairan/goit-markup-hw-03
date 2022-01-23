@@ -82,7 +82,10 @@ img {
 /* -----------------------Шапка Сайта--------------------------- */
 .page-header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -101,8 +104,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .site-nav {
@@ -171,6 +172,7 @@ img {
 .button {
   display: block;
   min-width: 200px;
+  height: 50px;
   margin: 0 auto;
 }
 .hero .button {
@@ -235,9 +237,7 @@ img {
   margin-right: 30px;
 } */
 /* -----------------------Team----------------------- */
-.team-title {
-  padding-top: 94px;
-}
+
 .team {
   display: flex;
   flex-wrap: wrap;
@@ -267,22 +267,21 @@ img {
   line-height: 1.19;
   text-align: center;
 }
-.name {
-  padding-top: 30px;
-}
 
 .position {
   padding-top: 10px;
+}
+.team-card {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
-
 /* <!-------------------Футер-----------------------> */
 .footer {
   background-color: #2f303a;
-}
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
 }
 .footer .logo-footer {
   color: var(--primary-white-color);
@@ -301,6 +300,9 @@ img {
   text-decoration: none;
 }
 
+.address {
+  margin-top: 9px;
+}
 .contacts .address:hover,
 .contacts .address:focus {
   color: var(--primary-white-color);
@@ -346,6 +348,8 @@ img {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
+  padding: 6px 22px;
 }
 .filters-button:hover,
 .filters-button:focus {
@@ -371,8 +375,7 @@ img {
   margin-bottom: 30px;
 }
 
-.portfolio-item .card {
-  padding-left: 24px;
-  padding-bottom: 20px;
+.portfolio-item .portfolio-card {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
